@@ -1,0 +1,17 @@
+# Core dependencies for "Implicit Structural Modeling via Generative Diffusion Framework".
+# Tested with Python 3.10. Install PyTorch matching your CUDA version first
+# (see https://pytorch.org), then `pip install -r requirements.txt`.
+
+torch>=2.0
+torchvision>=0.15
+pytorch-lightning==1.9.5
+omegaconf>=2.3
+einops>=0.6
+open-clip-torch>=2.20
+transformers>=4.30
+taming-transformers-rom1504>=0.0.6
+opencv-python>=4.7
+numpy>=1.23
+matplotlib>=3.6
+scikit-image>=0.20
+pillow>=9.4
