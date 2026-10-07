@@ -11,6 +11,8 @@ authors:
     given-names: Zhixiang
   - family-names: Gao
     given-names: Hui
+  - family-names: Deng
+    given-names: Buyu
 repository-code: "https://github.com/douyimin/Implicit_Structural_Modeling_via_Diffusion"
 version: 0.1.0
 references:

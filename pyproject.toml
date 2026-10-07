@@ -9,7 +9,13 @@ description = "Implicit structural modeling from sparse faults and horizons with
 readme = "README.md"
 requires-python = ">=3.10"
 dynamic = ["dependencies"]
-authors = [{name = "Yimin Dou and contributors"}]
+authors = [
+    {name = "Yimin Dou"},
+    {name = "Xinming Wu"},
+    {name = "Zhixiang Guo"},
+    {name = "Hui Gao"},
+    {name = "Buyu Deng"},
+]
 
 [project.urls]
 Repository = "https://github.com/douyimin/Implicit_Structural_Modeling_via_Diffusion"

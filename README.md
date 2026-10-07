@@ -3,7 +3,7 @@
 Generate continuous relative geological time (RGT) fields from sparse faults and
 horizons using a Stable Diffusion 2.1 backbone with independent conditioning branches.
 
-**Yimin Dou, Xinming Wu, Zhixiang Guo, and Hui Gao**
+**Yimin Dou, Xinming Wu, Zhixiang Guo, Hui Gao, and Buyu Deng**
 University of Science and Technology of China
 
 [ModelScope: data and weights](https://www.modelscope.cn/models/douyimin/ISMdiffusion/files) |
