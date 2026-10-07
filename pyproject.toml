@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ism-diffusion"
+version = "0.1.0"
+description = "Implicit structural modeling from sparse faults and horizons with latent diffusion"
+readme = "README.md"
+requires-python = ">=3.10"
+dynamic = ["dependencies"]
+authors = [{name = "Yimin Dou and contributors"}]
+
+[project.urls]
+Repository = "https://github.com/douyimin/Implicit_Structural_Modeling_via_Diffusion"
+Dataset = "https://doi.org/10.5281/zenodo.18447817"
+Weights = "https://www.modelscope.cn/models/douyimin/ISMdiffusion/files"
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.setuptools.packages.find]
+include = ["ISM_diffusion*"]
+
+[tool.setuptools.package-data]
+ISM_diffusion = ["resources/*.npy"]

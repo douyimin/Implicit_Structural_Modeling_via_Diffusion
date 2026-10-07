@@ -1,0 +1,24 @@
+# Default training and sampling configuration.
+model: cldm_v21
+seed: 2026
+training:
+  learning_rate: 1.0e-5
+  max_steps: 200000
+  batch_size: 25           # Per GPU; 2 GPUs give a global batch of 50.
+  devices: 2
+  accumulate_grad_batches: 1
+  ema_decay: 0.9996
+  precision: 16-mixed
+  workers: 4
+  save_every: 2000
+  horizon_min: 5
+  horizon_max: 15
+  # AdamW optimizer parameters.
+  betas: [0.9, 0.999]
+  eps: 1.0e-8
+  weight_decay: 0.01
+sampling:
+  ddim_steps: 50
+  eta: 0.0
+  fault_scale: 1.0
+  horizon_scale: 1.5

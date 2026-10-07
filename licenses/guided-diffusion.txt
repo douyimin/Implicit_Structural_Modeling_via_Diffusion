@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 The Authors
+Copyright (c) 2021 OpenAI
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,13 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-Portions of this repository are derived from third-party projects and remain
-under their original licenses:
-  - Latent Diffusion components in ISM_diffusion/: MIT
-  - ControlNet-derived components in ISM_diffusion/: Apache License 2.0
-  - guided-diffusion components in ISM_diffusion/: MIT
-See THIRD_PARTY_NOTICES.md and licenses/ for the applicable source-code notices.
-Stable Diffusion model weights, datasets, and reproduced figure panels retain
-their respective terms and are not relicensed by this file.

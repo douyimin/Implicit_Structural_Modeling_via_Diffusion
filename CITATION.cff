@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript and the Zenodo dataset when using this software."
+title: "Implicit Structural Modeling via Generative Diffusion Framework"
+type: software
+authors:
+  - family-names: Dou
+    given-names: Yimin
+  - family-names: Wu
+    given-names: Xinming
+  - family-names: Guo
+    given-names: Zhixiang
+  - family-names: Gao
+    given-names: Hui
+repository-code: "https://github.com/douyimin/Implicit_Structural_Modeling_via_Diffusion"
+version: 0.1.0
+references:
+  - type: data
+    title: "Implicit Structural Modeling via Generative Diffusion Framework"
+    authors:
+      - family-names: Dou
+        given-names: Yimin
+      - family-names: Wu
+        given-names: Xinming
+    year: 2026
+    doi: 10.5281/zenodo.18447817
