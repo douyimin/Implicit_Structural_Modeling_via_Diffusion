@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-message: "Please cite the associated manuscript and the Zenodo dataset when using this software."
-title: "Implicit Structural Modeling via Generative Diffusion Framework"
+message: "Please cite the paper arXiv:2606.07165 when using this software."
+title: "Implicit Structural Modeling via Generative Diffusion Frameworks"
 type: software
 authors:
   - family-names: Dou
@@ -15,6 +15,24 @@ authors:
     given-names: Buyu
 repository-code: "https://github.com/douyimin/Implicit_Structural_Modeling_via_Diffusion"
 version: 0.1.0
+preferred-citation:
+  type: article
+  title: "Implicit Structural Modeling via Generative Diffusion Frameworks"
+  authors:
+    - family-names: Dou
+      given-names: Yimin
+    - family-names: Wu
+      given-names: Xinming
+    - family-names: Guo
+      given-names: Zhixiang
+    - family-names: Gao
+      given-names: Hui
+    - family-names: Deng
+      given-names: Buyu
+  journal: arXiv
+  year: 2026
+  doi: 10.48550/arXiv.2606.07165
+  url: "https://arxiv.org/abs/2606.07165"
 references:
   - type: data
     title: "Implicit Structural Modeling via Generative Diffusion Framework"

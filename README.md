@@ -1,4 +1,4 @@
-# Implicit Structural Modeling via Generative Diffusion Framework
+# Implicit Structural Modeling via Generative Diffusion Frameworks
 
 Generate continuous relative geological time (RGT) fields from sparse faults and
 horizons using a Stable Diffusion 2.1 backbone with independent conditioning branches.
@@ -6,6 +6,7 @@ horizons using a Stable Diffusion 2.1 backbone with independent conditioning bra
 **Yimin Dou, Xinming Wu, Zhixiang Guo, Hui Gao, and Buyu Deng**
 University of Science and Technology of China
 
+[Paper: arXiv:2606.07165](https://arxiv.org/abs/2606.07165) |
 [ModelScope: data and weights](https://www.modelscope.cn/models/douyimin/ISMdiffusion/files) |
 [Zenodo dataset](https://doi.org/10.5281/zenodo.18447817) |
 [Test cases](test_data/)
@@ -102,15 +103,17 @@ Run either entry point with `--help` for more options.
 
 ## Citation and license
 
-See [`CITATION.cff`](CITATION.cff) for the author list. Cite the dataset as:
+If you use this work, please cite:
 
 ```bibtex
-@misc{dou2026ismdata,
-  author = {Dou, Yimin and Wu, Xinming},
-  title = {Implicit Structural Modeling via Generative Diffusion Framework},
+@misc{dou2026implicitstructuralmodelinggenerative,
+  title = {Implicit Structural Modeling via Generative Diffusion Frameworks},
+  author = {Yimin Dou and Xinming Wu and Zhixiang Guo and Hui Gao and Buyu Deng},
   year = {2026},
-  publisher = {Zenodo},
-  doi = {10.5281/zenodo.18447817}
+  eprint = {2606.07165},
+  archivePrefix = {arXiv},
+  primaryClass = {physics.geo-ph},
+  url = {https://arxiv.org/abs/2606.07165}
 }
 ```
 
